@@ -31,9 +31,9 @@ local_repository(
 
 http_archive(
     name = "google_bazel_common",
-    sha256 = "60a9aebe25f476646f61c041d1679a9b21076deffbd51526838c7f24d6468ac0",
-    strip_prefix = "bazel-common-227a23a508a2fab0fa67ffe2d9332ae536a40edc",
-    urls = ["https://github.com/google/bazel-common/archive/227a23a508a2fab0fa67ffe2d9332ae536a40edc.zip"],
+    sha256 = "65cb19ad517fba150ae8dfe731884b59bcca66f8236026c4e00a357334db9c07",
+    strip_prefix = "bazel-common-34102e4cf748e2922697f28f629ecea687345254",
+    urls = ["https://github.com/google/bazel-common/archive/34102e4cf748e2922697f28f629ecea687345254.zip"],
 )
 
 load("@google_bazel_common//:workspace_defs.bzl", "google_common_workspace_rules")
