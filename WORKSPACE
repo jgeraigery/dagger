@@ -73,9 +73,9 @@ bazel_skylib_workspace()
 
 http_archive(
     name = "rules_python",
-    sha256 = "e5470e92a18aa51830db99a4d9c492cc613761d5bdb7131c04bd92b9834380f6",
-    strip_prefix = "rules_python-4b84ad270387a7c439ebdccfd530e2339601ef27",
-    urls = ["https://github.com/bazelbuild/rules_python/archive/4b84ad270387a7c439ebdccfd530e2339601ef27.tar.gz"],
+    sha256 = "b8a7f039f5e65da654736318950066cf5951840534a3d1c3271d14cc1c9ab348",
+    strip_prefix = "rules_python-7bf4e6f0c4ac1762c09b5dce43e0a06aed88434b",
+    urls = ["https://github.com/bazelbuild/rules_python/archive/7bf4e6f0c4ac1762c09b5dce43e0a06aed88434b.tar.gz"],
 )
 
 http_archive(
